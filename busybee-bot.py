@@ -146,7 +146,7 @@ def _l(text, debug = False):
         if logfile_name:
             f = open(logfile_name, "a")
         else:
-            f = open("fronkbot.log", "a")
+            f = open("busybee-bot.py.log", "a")
         f.write("{}\n".format(logstring))
         f.close()
 
