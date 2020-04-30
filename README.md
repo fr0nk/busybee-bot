@@ -14,4 +14,5 @@ For more information, please refer to <https://unlicense.org>
 
 ### Requirements
 
-Depends on python3 and discord.py (see installation). On Ubuntu install discord.py with `pip3 -U discord.py`
+Depends on python3 and discord.py.
+On Ubuntu install discord.py with `pip3 -U discord.py`
