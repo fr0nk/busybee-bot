@@ -22,7 +22,7 @@ from datetime import datetime
 TOKEN = "discord-bot-token"
 # the role users should be added to while streaming
 ROLE = "role-name"
-# discord users to ignore; this is a python list ie ["user1", "user2"]
+# discord users to ignore; this is a python list ie ["user1#1234", "user2#4321"]
 # useful to ignore bots which always have streaming activity active
 blacklist = [""]
 # log messages to file
