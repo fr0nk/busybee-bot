@@ -30,6 +30,6 @@ On Ubuntu install discord.py with `pip3 -U discord.py`
  This will add the bot to your server and create a new role for the bot itself. Permissions 268435456 grants the "Manage Roles" Permission
 
 * In your Discord Server Settings drag the new bot role above the role that it's supposed to add the streamers to
-* Open busebee-bot.py
+* Open busybee-bot.py
 * Change TOKEN to the bot token copied earlier
-* Change ROLE to the role streamers should be addded to
+* Change ROLE to the role streamers should be added to
