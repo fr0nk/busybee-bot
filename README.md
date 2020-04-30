@@ -16,3 +16,18 @@ For more information, please refer to <https://unlicense.org>
 
 Depends on python3 and discord.py.
 On Ubuntu install discord.py with `pip3 -U discord.py`
+
+### Discord Bot Setup
+
+* Go to your Discord Developer Portal (https://discordapp.com/developers/applications)
+* Create new application
+* Get Client ID from "General Information" page (will be needed later)
+* Create Bot on "Bot" page
+* Get Token from the "Bot" page (will be needed later)
+* Open invite Link to invite the bot into your Discord Server (replace {client_id} with your bots client id):
+`https://discordapp.com/oauth2/authorize?&client_id={client_id}&scope=bot&permissions=268435456`
+This will add the bot to your server and create a new role for the bot itself. Permissions 268435456 grants the "Manage Roles" Permission
+* In your Discord Server Settings drag the new bot role above the role that it's supposed to add the streamers to
+* Open busebee-bot.py
+* Change TOKEN to the bot token copied earlier
+* Change ROLE to the role streamers should be addded to
